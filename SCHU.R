@@ -20,7 +20,7 @@ X <- rbind(X1, X2)
 # Plot in 3D.
 plot3d(X, xlab=expression("X"[1]), ylab=expression("X"[2]), zlab=expression("X"[3]))
 
-# Rum persistent homology with DTM function. 
+# Run persistent homology with DTM function. 
 # Assign values for parameters "by" and "m0" first. To compute DTM, it generates a grid 
 # and parameter "by" is grid size. m0 is the smoothing parameter in the definition of DTM.
 # Use function phDTM() to get persistence homology results.
